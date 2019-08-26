@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import List from './Components/List';
 
 const App: React.FC = () => {
   return (
@@ -8,7 +9,8 @@ const App: React.FC = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
           Playing Around with TypeScript
-        </header>
+        <List />
+      </header>
     </div>
   );
 }
